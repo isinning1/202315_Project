@@ -10,6 +10,20 @@
         </tr>
       </thead>
       <tbody>
+        <tr *ngFor="let c of plantas">
+          <td>
+            <dd>{{c.id}}</dd>
+          </td>
+          <td>
+            <dd>{{c.nombreComun}}</dd>
+          </td>
+          <td>
+            <dd>{{c.tipo}}</dd>
+          </td>
+          <td>
+            <dd>{{c.clima}}</dd>
+          </td>
+        </tr>
       </tbody>
     </table>
   </div>
