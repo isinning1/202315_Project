@@ -1,6 +1,6 @@
 import { Planta} from "./planta";
 
-export const dataPlanta = [
+export const dataPlantas = [
  new Planta(1,"Planta de vaca", "Interior", "Templado, cálido"),
  new Planta(2, "Chachafruto", "Exterior", "Todos"),
  new Planta(3, "Espatiofilos", "Interior", "Templado, cálido"),
