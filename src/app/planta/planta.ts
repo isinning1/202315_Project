@@ -1,7 +1,7 @@
 export class Planta {
     id: number;
     nombreComun: string;
-    tipo: string;
+    tipo: 'Interior' | 'Exterior';
     clima: string;
   
     constructor(id: number, nombreComun: string, tipo: 'Interior' | 'Exterior', clima: string) {
